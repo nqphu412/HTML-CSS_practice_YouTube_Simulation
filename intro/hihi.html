@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html?>
+  <head>
+    <style>
+      li {
+        display: inline-block;
+        padding: 0px 10px;
+        cursor: pointer;
+        color: red;
+        opacity: 1;
+        transition: opacity 0.5s;
+      }
+
+      .hihi {
+        padding-inline-start: 0px;
+      }
+
+      .fruit {
+        border: 1px solid black;
+        display: inline-block;
+      }
+
+      .hihi:hover .item:not(:hover) {
+        opacity: 0.1;
+      } 
+
+      .all-button {
+        border: 1px solid black;
+        margin-top: 20px;
+      }
+
+      .all-button:hover button:not(:hover) {
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="fruit">
+      <ol class="hihi">
+        <li class="item"><button>Button 1</button></li>
+        <li class="item"><button>Button 2</button></li>
+        <li class="item"><button>Button 3</button></li>
+      </ol>
+    </div>
+    <div class="all-button">
+      <button>Button 1</button>
+      <button>Button 2</button>
+      <button>Button 3</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Position-Tooltip</title>
+    <style>
+      .hihi {
+        position: relative;
+      }
+      .duration {
+        background-color: rgba(0, 0, 0, 0.9);
+        color: white;
+        font-size: 13px;
+        padding: 4px;
+        border-radius: 2px;
+        bottom: 11px; right: 4px;
+        position: absolute
+        ;
+      }
+    </style>
+  </head>
+  <body style="
+  height: 3000px; 
+  padding-top: 20px; padding-left: 50px;">
+    <div style="
+    background-color: black;
+    color: white;
+    top: 0px; height: 20px;
+    left: 0px; right: 0px; 
+    position: fixed">
+      header</div>
+
+    <div style="
+    background-color: lightgreen;
+    position: fixed; width: 50px;
+    top: 20px; left: 0px; bottom: 0px;">
+      sidebar</div>
+
+    <div class="hihi"
+    style="
+    background-color: lightblue;
+    width: 200px; height: 200px;">
+      div 1
+      <div class="duration">14:20</div>
+    </div>
+
+    
+    <div style="
+    background-color: lightpink;
+    width: 200px; height: 200px;">
+      div 2</div>
+  </body>
+</html>

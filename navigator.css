@@ -1,0 +1,53 @@
+.navigator-bar {
+  position: fixed;
+  top: 60px; bottom: 0px; left: 0px;
+  width: 72px;
+  background-color: white;
+  padding-top: 5px;
+  z-index: 10;
+}
+
+.navigator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 14px 0px;
+  background-color: white;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.navigator:hover {
+  background-color: rgb(181, 181, 181);
+}
+
+.navigator img {
+  height: 26px;
+  margin-bottom: 7px;
+}
+
+.navigator {
+  color: black;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.navigator p {
+  margin: 0px 0px;
+}
+
+@media (min-width: 901px) {
+  .navigator-bar {
+    width: 130px;
+  }
+
+  .navigator {
+    flex-direction: row;
+    padding: 5px 0px 5px 10px;
+  }
+
+  .navigator img {
+    padding-top: 5px;
+    margin-right: 10px;
+  }
+}

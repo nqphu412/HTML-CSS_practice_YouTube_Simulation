@@ -1,0 +1,159 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0px; right: 0px; left: 0px;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(184, 179, 179);
+  border-bottom-style: solid;
+  z-index: 9;
+}
+
+.leftsection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hbg-menu {
+  height: 24px;
+  cursor: pointer;
+}
+
+.yt-logo {
+  height: 20px;
+  cursor: pointer;
+}
+
+.hbg-menu {
+  margin: 0px 24px;
+}
+
+.midsection {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  max-width: 500px;
+  margin-left: 50px;
+  margin-right: 15px;
+  align-items: center;
+}
+
+.search-bar {
+  font-family: Roboto, Arial;
+  font-size: 16px;
+  padding: 0px 4px 0px 16px;
+  border-bottom-left-radius: 100px;
+  border-top-left-radius: 100px;
+  border-width: 1px;
+  border-color: rgb(184, 179, 179);
+  border-style: solid;
+  box-shadow: inset 1px 1px 10px rgba(0,0,0,0.08);
+  height: 40px;
+  flex: 1;
+  width: 0;
+}
+
+.search-bar::placeholder {
+  font-family: Roboto, Arial;
+  font-size: 16px;
+}
+
+.midsection img {
+  height: 24px;
+}
+
+.search-button {
+  display: flex;
+  align-items: center;
+  width: 70px;
+  height: 42px;
+  margin-left: -1px;
+  margin-right: 10px;
+  border-width: 1px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-color: rgb(184, 179, 179);
+  border-style: solid;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+}
+
+.search-button:hover {
+  background-color: rgb(230, 228, 228);
+}
+
+.tooltip-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.tooltip {
+  background-color: rgba(96, 96, 96, 0.9);
+  color: white;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 3px;
+  position: absolute;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.15s;
+
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.tooltip-container:hover .tooltip {
+  opacity: 1;
+}
+
+.voice-button {
+  display: flex;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  border: none;
+  background-color: rgb(248, 248, 248);
+  cursor: pointer;
+}
+
+.rightsection {
+  display: flex;
+  width: 182px;
+  margin: 0px 24px 0px 29px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.rightsection img {
+  height: 24px;
+  cursor: pointer;
+}
+
+.rightsection .profile-picture {
+  height: 32px;
+  width: 32px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+.no-notifications {
+  background-color: rgb(234, 0, 0);
+  color: white;
+  padding: 1.5px 5px;
+  font-size: 10px;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
+  position: absolute;
+  right: -7px; top: -4px;
+}

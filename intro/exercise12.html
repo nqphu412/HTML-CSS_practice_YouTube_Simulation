@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise 12</title>
+    <style>
+      .question {
+        margin: 10px 20px;
+        display: flex;
+        flex-direction: row;
+        font-family: Arial;
+      }
+      #qc {
+        justify-content: space-between;
+      }
+      #qd {
+        height: 70px;
+        align-items: center;
+        justify-content: space-between;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+      }
+      #qe {
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        border-radius: 5px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+      }
+      .line-e {
+        font-family: Arial;
+        font-size: 14px;
+        font-weight: 500px;
+        display: flex;
+        flex-direction: row;
+        padding: 5px 10px;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .haha {
+        font-size: 10px;
+        background-color: blue;
+        color: white;
+        padding: 3px 5px;
+        border-radius: 20px;
+        font-weight: 700;
+      }
+      #qg {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+      }
+      .person, .person1 {
+        display: flex;
+        flex: row;
+        align-items: center;
+      }
+      .person {
+        justify-content: space-between;
+        margin-bottom: 10px;
+      }
+      .i1 {
+        font-weight: bold;
+      }
+      .i2, .i3 {
+        font-size: 12px;
+        color: gray;
+      }
+      .follow {
+        background-color: blue;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 10px;
+        font-weight: bold;
+      }
+      img {
+        width: 40px;
+        border-radius: 100px;
+        margin-right: 10px;
+      }
+      #qf {
+        background-color: rgb(95, 5, 95);
+        padding: 5px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+      }
+      .f1 {
+        width: 50px;
+        margin-right: 10px;
+      }
+      .f3 {
+        width: 70px;
+        margin-left: 10px;
+      }
+      .f2 {
+        flex: 1;
+        text-align: center;
+      }
+      input {
+        border: none;
+        border-radius: 15px;
+        padding: 5px 20px;
+        margin: 10px 0px;
+        font-size: 10px;
+        width: 70%;
+        max-width: 300px;
+      }
+      .download {
+        background-color: rgb(95, 5, 95);
+        color: white;
+        border-width: 1px;
+        border-color: white;
+        border-style: solid;
+        border-radius: 2px;
+        padding: 7px 10px;
+        font-size: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="question" id="qa">
+      <div style="background-color: lightblue;
+      width: 200px;">200px </div>
+      <div style="background-color: lightpink;
+      width: 75px;">75px</div>
+    </div>
+
+    <div class="question" id="qb">
+      <div style="background-color: lightblue;
+      width: 50px;">item1 </div>
+      <div style="background-color: lightpink;
+      flex: 1;">item2</div>
+      <div style="background-color: lightblue;
+      width: 75px;">item3 </div>
+    </div>
+
+    <div class="question" id="qc">
+      <div style="background-color: lightpink;">item1</div>
+      <div style="background-color: lightpink;">item2</div>
+      <div style="background-color: lightpink;">item3</div>
+      <div style="background-color: lightpink;">item4</div>
+    </div>
+
+    <div class="question" id="qd">
+      <div style="background-color: lightpink;">item1</div>
+      <div style="background-color: lightpink;">item2</div>
+    </div>
+
+    <div class="question" id="qe">
+      <div class="line-e">
+        <div class="hihi">Home</div>
+        <div class="haha">14</div>
+      </div>
+      <div class="line-e">
+        <div class="hihi">Notifications</div>
+        <div class="haha">3</div>
+      </div>
+      <div class="line-e">
+        <div class="hihi">Messages</div>
+        <div class="haha">5</div>
+      </div>
+    </div>
+
+    <div class="question" id="qg">
+      <div class="person">
+        <div class="person1">
+          <div><img src="../channel-img/channel-1.jpeg"></div>
+          <div class="info">
+            <div class="i1">oliver</div>
+            <div class="i2">the cat</div>
+            <div class="i3">Popular</div>
+          </div>
+        </div>
+        <div><button class="follow">Follow</button></div>
+      </div>
+
+      <div class="person">
+        <div class="person1">
+          <div><img src="../channel-img/channel-2.jpeg"></div>
+          <div class="info">
+            <div class="i1">Mimi</div>
+            <div class="i2">Sleepy cat</div>
+            <div class="i3">Popular</div>
+          </div>
+        </div>
+        <div><button class="follow">Follow</button></div>
+      </div>
+
+      <div class="person">
+        <div class="person1">
+          <div><img src="../channel-img/channel-3.jpeg"></div>
+          <div class="info">
+            <div class="i1">Rex</div>
+            <div class="i2">Happy Bulldog</div>
+            <div class="i3">Popular</div>
+          </div>
+        </div>
+        <div><button class="follow">Follow</button></div>
+      </div>
+
+
+    </div>
+
+    <div class="question" id="qf">
+      <div class="f1">Home</div>
+      <div class="f2">
+        <input type="text" placeholder="Search">
+      </div>
+      <div class="f3"><button class="download">Download</button></div>
+    </div>
+  </body>
+</html>

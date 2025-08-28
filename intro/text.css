@@ -1,0 +1,49 @@
+p {
+    font-family: Roboto;
+    font-size: 14px;
+    margin-top: 0px;
+  }
+
+  p.title {
+    font-size: 18px;
+    font-weight: 700;
+    width: 284px;
+    line-height: 24px;
+    margin-bottom: 5px;
+  }
+
+  p.detail {
+    color: rgb(96, 96, 96);
+    width: 284px;
+    margin-bottom: 20px;
+  }
+
+  p.author {
+    color: rgb(96, 96, 96);
+    width: 284px;
+    margin-bottom: 18px;
+  }
+
+  p.description {
+    color: rgb(96, 96, 96);
+    width: 284px;
+    line-height: 20px;
+    margin-bottom: 30px;
+  }
+
+  p.shop {
+    background-color: rgb(227, 65, 64);
+    color: white;
+    text-align: center;
+    margin: 0px 8px 14px;
+    padding: 18px;
+    transition: text-decoration 0.15s;
+  }
+
+  span.link {
+    cursor: pointer;
+  }
+
+  span.link:hover {
+    text-decoration: underline;
+  }

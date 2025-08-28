@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Clothing purchase</title>
+    <style>
+      .one-item {
+        min-width: 300px;
+        border: 1px solid gray;
+        position: relative;
+        margin-top: 30px;
+      }
+      img {
+        width: 100%;
+      }
+      .sale {
+        background-color: black;
+        color: white;
+        padding: 5px;
+        position: absolute;
+        top: 10px; right: 0px;
+      }
+      .purchase {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 0px; right: 0px; left: 0px;
+        height: 30%;
+        background-color: rgba(255,255,255,0.4);
+        opacity: 0;
+        transition: opacity 0.15s;
+      }
+      .one-item:hover .purchase {
+        opacity: 1;
+      }
+      .purchase button {
+        justify-content: center;
+        cursor: pointer;
+        padding: 7px 15px;
+        border: 1px solid black;
+        font-family: Arial;
+      }
+    </style>
+  </head>
+  <body style="height: 3000px;">
+    <div class="menu" 
+    style="display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;">
+      <div class="one-item">
+        <img src="exercise15-bag.jpeg">
+        <div class="sale">20% OFF</div>
+        <div class="purchase tooltip-container">
+          <button>Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="one-item">
+        <img src="exercise15-bag1.jpeg">
+        <div class="sale">50% OFF</div>
+        <div class="purchase tooltip-container">
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>
