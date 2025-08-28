@@ -6,9 +6,12 @@ The design is inspired by an **older version of YouTube's layout**, focusing mai
 The page is divided into three main sections:
 1. **Header**: Top bar with search and menu icons
 2. **Navigator**: Left sidebar for navigation
-3. **Video:: Main grid displaying video thumbnails
+3. **Video**: Main grid displaying video thumbnails
 
 # Limitation
+- No API integration (videos are static, not dynamic)
+- No search functionality, search bar is only for display
+- Number of videos is limited to 12
 - Best displayed on **laptops or PCs**
 - Phone display is not supported
 - This is only for practice purpose, not a functional Youtube clone
