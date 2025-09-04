@@ -2,7 +2,7 @@
 
 This project is a **static simulation of YouTube’s desktop interface**, built as part of my personal journey learning HTML and CSS. It’s inspired by an older version of YouTube’s layout and focuses on replicating its structure and styling—not its functionality.
 
-🔗 **Live Demo**: [Click here to view the project]([https://nqphu412.github.io/Youtube-Replication/](https://nqphu412.github.io/HTML-CSS_practice_YouTube_Simulation/))
+**Live Demo**: [Click here to view the project](https://nqphu412.github.io/HTML-CSS_practice_YouTube_Simulation/)
 
 ---
 
